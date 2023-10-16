@@ -1,0 +1,16 @@
+20230907	18:30:43	a70941f5-b7af-4248-80bf-5184d8e493c9	Error: Not allowed by CORS
+20230907	18:30:43	5e1c824d-6819-41c9-8929-c33d7f1026e8	Error: Not allowed by CORS
+20230907	18:32:05	4b0a8cfc-a74d-4da2-8ee5-0f52b6d2a6cd	Error: Not allowed by CORS
+20230907	18:36:10	d5729225-0826-49fd-8b35-ee438d4dafbf	ReferenceError: sendFile is not defined
+20230907	18:47:21	200cdba0-dbde-4f25-82f6-e7de660abddc	Error: ENOENT: no such file or directory, stat 'D:\auth-backend\express-server\views\subdir\index.html'
+20230907	18:48:12	d78bf101-f915-4dae-856f-b6935860111b	Error: ENOENT: no such file or directory, stat 'D:\auth-backend\express-server\views\subdir\index.html'
+20230907	18:51:01	18520a57-c081-49af-92b5-caabb0807f1e	Error: ENOENT: no such file or directory, stat 'D:\auth-backend\express-server\views\subdir\index.html'
+20230908	16:38:53	2de43230-fada-415f-b0da-13cee7635134	ReferenceError: cookie is not defined
+20230908	16:39:40	76e96e1a-0614-4fa1-9edc-3d81685e22ff	ReferenceError: cookie is not defined
+20230910	02:15:49	049d8064-a16a-4b49-9f39-5564f9b6769a	Error: Not allowed by CORS
+20230929	13:25:25	76cf26c0-5b14-4992-8397-67dea2fd29f0	Error: Not allowed by CORS
+20231003	12:50:50	49e4a770-b35c-49aa-b186-51aa356b2b6d	Error: Not allowed by CORS
+20231003	12:51:07	45bf56f5-7d9b-4bc5-bad1-47d8116a06a3	Error: Not allowed by CORS
+20231003	15:22:21	814e6685-25f9-436e-b5fb-c22ca069b49b	Error: Not allowed by CORS
+20231003	15:22:21	ea3d1870-4673-456d-83dc-38e7c787ff49	Error: Not allowed by CORS
+20231004	16:07:47	8406a938-bce0-4d83-afbb-8ce580a96994	Error: Not allowed by CORS
