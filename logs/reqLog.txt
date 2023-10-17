@@ -1466,3 +1466,14 @@
 20231017	22:29:18	712ac459-f602-40fc-9835-01d0b1765196	OPTIONS	http://localhost:5173	/auth
 20231017	22:29:18	3b8faf4a-c460-457c-b5f2-ef80244008c3	POST	http://localhost:5173	/auth
 20231017	22:36:16	4d187e64-6fc7-4bff-b511-8ff119e2b28a	OPTIONS	https://fmanimashaun.github.io	/auth
+20231017	22:38:15	63562afe-ddf7-4df6-ab53-5c68e6cd8766	OPTIONS	https://fmanimashaun.github.io	/auth
+20231017	22:38:24	fbe4d7f4-ea0b-49c0-a2ff-7a9358a0ddf4	GET	http://localhost:5173	/refresh
+20231017	22:38:25	06931d36-4807-4be3-8a5b-139997f2776e	GET	http://localhost:5173	/refresh
+20231017	22:38:28	e91fc24c-ad20-4ba4-92e6-80423a2e61cd	OPTIONS	http://localhost:5173	/auth
+20231017	22:38:28	f0ce1ecd-d7ef-42ae-9c51-50f022da99f0	POST	http://localhost:5173	/auth
+20231017	22:38:34	71778382-395a-4546-8a7c-19a019e7b153	OPTIONS	http://localhost:5173	/logout
+20231017	22:38:34	27a92efd-2b6a-406d-b3b4-3f99fcd3fd29	GET	http://localhost:5173	/logout
+20231017	22:38:37	826d1987-b8af-4944-aebb-fd499578e55c	OPTIONS	http://localhost:5173	/auth
+20231017	22:38:37	d7207f9a-6b91-4b7b-bedf-d9f93e5204e4	POST	http://localhost:5173	/auth
+20231017	22:39:58	4e9b90b8-0be7-4e27-8426-bb594c4908f0	OPTIONS	https://fmanimashaun.github.io	/auth
+20231017	22:39:58	33f63ca7-19a2-4297-a056-d53eb4993f68	POST	https://fmanimashaun.github.io	/auth
