@@ -5,8 +5,6 @@ const jwt = require('jsonwebtoken');
 handleRefreshToken = async (req, res) => {
   const cookies = req.cookies;
 
-  console.log('cookies', cookies);
-
   if (!cookies?.jwt) return res.status(401).json({ message: 'not authorised' });
 
   const refreshToken = cookies.jwt;
@@ -43,6 +41,7 @@ handleRefreshToken = async (req, res) => {
         const result = await hackedUser.save();
       },
     );
+
     return res.status(403).json({ message: 'Forbidden' });
   }
 
@@ -51,6 +50,8 @@ handleRefreshToken = async (req, res) => {
     (token) => token !== refreshToken,
   );
 
+  console.log('evaluating jwt');
+
   // evaluate JWTs
   jwt.verify(
     refreshToken,
@@ -58,6 +59,7 @@ handleRefreshToken = async (req, res) => {
     async (err, decoded) => {
       if (err) {
         foundUser.refreshToken = [...newRefreshTokenArray];
+        console.log(err)
 
         // save user
         const result = await foundUser.save();
@@ -81,7 +83,7 @@ handleRefreshToken = async (req, res) => {
         const newRefreshToken = jwt.sign(
           { username: foundUser.username },
           process.env.REFRESH_TOKEN_SECRET,
-          { expiresIn: '1h' },
+          { expiresIn: '20s' },
         );
 
         // updaet and save refresh token to database

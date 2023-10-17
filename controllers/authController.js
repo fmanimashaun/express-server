@@ -27,7 +27,7 @@ handleLogin = async (req, res) => {
     return res.status(401).json({ message: 'Invalid credentials' });
   } else {
     const roles = Object.values(foundUser.roles).filter(Boolean);
-    
+
     // create token
     const accessToken = jwt.sign(
       {
@@ -37,13 +37,13 @@ handleLogin = async (req, res) => {
         },
       },
       process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: '30s' },
+      { expiresIn: '10s' },
     );
 
     const newRefreshToken = jwt.sign(
       { username: foundUser.username },
       process.env.REFRESH_TOKEN_SECRET,
-      { expiresIn: '1h' },
+      { expiresIn: '20s' },
     );
 
     const newRefreshTokenArray = !cookies?.jwt
