@@ -27,8 +27,7 @@ handleLogin = async (req, res) => {
     return res.status(401).json({ message: 'Invalid credentials' });
   } else {
     const roles = Object.values(foundUser.roles).filter(Boolean);
-
-    console.log('roles', roles);
+    
     // create token
     const accessToken = jwt.sign(
       {
